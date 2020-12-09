@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 PACKAGE_NAME = 'tools'
 AUTHOR = 'Tulio Amancio (tsuriu)'
 AUTHOR_EMAIL = 'tsuriu@tuta.io'
@@ -16,7 +16,8 @@ LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
       'pymysql',
-      'requests'
+      'requests',
+      'easysnmp'
 ]
 
 setup(name=PACKAGE_NAME,
