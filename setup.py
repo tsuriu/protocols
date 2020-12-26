@@ -17,7 +17,8 @@ LONG_DESC_TYPE = "text/markdown"
 INSTALL_REQUIRES = [
       'pymysql',
       'requests',
-      'easysnmp'
+      'easysnmp',
+      'paramiko'
 ]
 
 setup(name=PACKAGE_NAME,
